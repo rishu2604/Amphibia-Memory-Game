@@ -1,0 +1,18 @@
+.main-text{
+    color: #B8860B;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.main-text p{
+    font-size: 30px;
+}
+
+p{
+    color: #B8860B;
+}

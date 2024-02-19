@@ -1,0 +1,29 @@
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.icon button{
+    margin: 10px;
+    align-items: center;
+    background-color: #8AB661;
+    border: none;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    padding: 30px;
+}
+
+.icon button img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+strong{
+    color: #FFFFFF;
+} 
