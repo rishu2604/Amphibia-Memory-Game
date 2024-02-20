@@ -6,7 +6,7 @@ export default function Images({ clickHandler, imagesPaths }) {
         <div className='icon'>
             {imagesPaths.map((img, index)=>(
                 <button key={img.name} onClick={() => clickHandler(img.name)}>
-                    <img src={img.src} alt={`pokemon${index}`} />
+                    <img src={img.src} alt={img.name} />
                     <strong>{img.name}</strong>
                 </button>
             ))}
