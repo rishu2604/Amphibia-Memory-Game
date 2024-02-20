@@ -1,18 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.main{
+    width: 96vw;
+    font-family: "Dancing Script", cursive;
+}
+
 .main-text{
     color: #B8860B;
-    width: 100vw;
+    width: 95vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 2px;
     overflow: hidden;
+    font-weight: bolder;
+    font-size: xx-large;
 }
 
 .main-text p{
     font-size: 30px;
 }
 
-p{
+.ptag{
     color: #B8860B;
+    width: 90vw;
+    font-weight: 400;
+    font-size: x-large;
+    margin-left: 10px;
 }
